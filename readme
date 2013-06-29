@@ -12,6 +12,7 @@ My library
 	# without GET
 	# no CSS
         New file was created before it script
+	Sourse file - index.html - use wget for get it
 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
