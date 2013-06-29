@@ -13,25 +13,27 @@
 <body>
 <?php 
 $word = $_GET['word']; 
-$handle = @fopen($_GET["file"], "r");
-if ($handle) {
-    while (($buffer = fgets($handle, 4096)) !== false) { 
+$FL = @fopen($_GET["file"], "r");
+$nrepeat = $_GET['nr']; //первые nrepeat строки отображать
+$krepeat = 0; // переменная считающая количество строк вхождения
+if ($FL) {
+    while (($buffer = fgets($FL, 4096)) !== false) { 
 		$pos = strpos($buffer, $word);
-
 		// Заметьте, что используется ===.  Использование == не даст верного 
 		// результата, так как 'a' находится в нулевой позиции.
 		if ($pos === false) { 
 			#echo "Строка '$word' не найдена в строке '$buffer'"; 
 			} 
 		else {
-			echo "$buffer";
+			$krepeat++;
+			if ($nrepeat>=$krepeat) {echo "$buffer";}
 			//echo " в позиции $pos";
 			echo "<br>";
 			}
 		// echo $buffer;
 		}
-    if (!feof($handle)) { echo "Error: unexpected fgets() fail\n";}
-    fclose($handle); }
+    if (!feof($FL)) { echo "Error: unexpected fgets() fail\n";}
+    fclose($FL); }
 ?>
 </body>
 </html>
