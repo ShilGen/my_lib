@@ -1,5 +1,4 @@
 
-
 My library
 1. Table (PHP, HTML) from csv file
 	example:
@@ -9,6 +8,9 @@ My library
 	the number of lines is limited to the variable $ nr
 	example:
 		search.php?word=word&file=file_name&nr=5
+3*. Return x line from text file (PHP,HTML)
+	# without GET
+	# no CSS
 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
