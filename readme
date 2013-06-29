@@ -1,11 +1,11 @@
 
 
-My library.
+My library
 1. Table (PHP, HTML) from csv file
 	example:
 		tablefromcsv.php?filecsv=name_file.csv&name=table_name
-2. Search word in any text file.
-	Return strings where this word it.
+2. Search word in any text file
+	script returns a lines where the search word be in any position
 	example:
 		search.php?word=word&file=file_name
 
@@ -27,8 +27,8 @@ My library.
 
 
 
-#Copyright 2013 
+# Copyright 2013 
 # https://github.com/ShilGen 
 # ShilGen.ru 
 # geniusshil@gmail.com 
-#29.06.2013
+# 29.06.2013
