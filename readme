@@ -1,0 +1,18 @@
+Warning!!!!
+Starting the library functions implemented at your own risk. 
+The author does not bear liable for no view blamed for the damage.
+
+My library.
+1. Table (PHP, HTML) from csv file
+example:
+tablefromcsv.php?filecsv=name_file.csv&name=table_name
+
+
+
+
+
+#Copyright 2013 
+# https://github.com/ShilGen 
+# ShilGen.ru 
+# geniusshil@gmail.com 
+#29.06.2013
