@@ -1,4 +1,3 @@
-
 My library
 1. Table (PHP, HTML) from csv file
 	example:
@@ -9,8 +8,10 @@ My library
 	example:
 		search.php?word=word&file=file_name&nr=5
 3*. Return x line from text file (PHP,HTML)
+        use Encode ( window-1251 to UTF-8)
 	# without GET
 	# no CSS
+        New file was created before it script
 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
