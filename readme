@@ -1,5 +1,5 @@
 My library
-1. Table (PHP, HTML) from csv file
+1. Table (PHP, HTML) from csv file (+ tablesorter Flexible client-side table sorting)
 	example:
 		tablefromcsv.php?filecsv=name_file.csv&name=table_name
 2. Search word in any text file
@@ -30,6 +30,18 @@ My library
  * MA 02110-1301, USA.
 
 
+Third-party software:
+
+JQuery - JavaScript Library
+https://github.com/jquery
+Licence: https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
+
+
+Tablesorter
+http://tablesorter.com/docs/#
+Author: Christian Bach
+Version: 2.0.5 (changelog)
+Licence: Dual licensed  GPL license.
 
 
 # Copyright 2013 
